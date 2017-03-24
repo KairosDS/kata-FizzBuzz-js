@@ -19,13 +19,12 @@ TennisGame1.prototype.deuce = function(){
 }
 
 TennisGame1.prototype.getAdvantage = function() {
-    var playerWithAdvantage = (this.m_score1>this.m_score2)?1:2;
+    var playerWithAdvantage = (this.m_score1 > this.m_score2) ? 1 : 2;
     var minusResult = Math.abs(this.m_score1 - this.m_score2);
     return ((minusResult === 1) ? "Advantage player" : "Win for player" ) + playerWithAdvantage;
 }
 
 TennisGame1.prototype.getCurrentScore = function() {
-    var tempScore = 0;
     var scoreNames = ['Love', 'Fifteen', 'Thirty', 'Forty'];
     return scoreNames[this.m_score1] + '-' + scoreNames[this.m_score2];
 }
