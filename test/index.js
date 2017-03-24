@@ -14,7 +14,11 @@ describe('FizzBuzz', function(){
 
   it('should return 100 elements', function() {
   	var result = fizzBuzz();
-    assert.ok(result.length == 100); 
+    assert.ok(result.length === 100); 
   });
 
+  it('should 1 on first element', function() {
+  	var result = fizzBuzz();
+    assert.ok(result[0] === 1); 
+  });
 });
