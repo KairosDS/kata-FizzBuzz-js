@@ -21,4 +21,7 @@ describe('Let try fizz-buzz', function() {
 	it('I have a function that return buzz when i give a number multiple of 5', function() {
 		assert.equal(fizzbuzz(5), 'buzz')
 	})
+	it('I have a function that return fizzbuzz when i give a number multiple of 3 and 5', function() {
+		assert.equal(fizzbuzz(15), 'fizzbuzz')
+	})
 })
