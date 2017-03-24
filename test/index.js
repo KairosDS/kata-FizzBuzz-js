@@ -31,4 +31,9 @@ describe('FizzBuzz', function(){
   	var result = fizzBuzz();
     assert.equal(result[4], 'Buzz');
   });
+
+  it('should \'FizzBuzz\' on 15th element', function() {
+  	var result = fizzBuzz();
+    assert.equal(result[14], 'FizzBuzz');
+  });
 });
