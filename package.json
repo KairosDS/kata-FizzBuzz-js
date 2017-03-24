@@ -1,0 +1,22 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more \"fun\" by introducing a \"game\".",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KairosDS/kata-FizzBuzz-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KairosDS/kata-FizzBuzz-js/issues"
+  },
+  "homepage": "https://github.com/KairosDS/kata-FizzBuzz-js#readme"
+}
