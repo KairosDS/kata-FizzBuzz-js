@@ -6,7 +6,7 @@ var fizzBuzz = function() {
 }
 
 var translate = function(value) {
-  return value;
+  return value%3 == 0 ? 'Fizz': value;
 }
 
 
